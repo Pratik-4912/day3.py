@@ -29,3 +29,4 @@ print("\nResume similarity scores:\n", df[['resume_id', 'similarity_scores']])
 threshold = 0.2
 matching_resumes = df[df['similarity_scores'] >= threshold]
 print("\nResumes matching the job requirements:\n", matching_resumes[['resume_id', 'similarity_scores']])
+
